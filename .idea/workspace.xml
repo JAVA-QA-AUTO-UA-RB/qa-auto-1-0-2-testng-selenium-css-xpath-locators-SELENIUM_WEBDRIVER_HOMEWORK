@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc148d79-7088-4507-9e88-e7cad9ed5f61" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BasicSetupTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestngTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README_TEST.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ABPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AddRemoveElementsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CheckboxesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DragAndDropTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DropdownTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FormAuthenticationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HorizontalSliderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTestngTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2kkUDT8wyjwWWMVKwdEEBE9wCAF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,22 +46,44 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Maven.SELENIUM_TESTNG_HOMEWORK [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.ABPageTest.executor": "Run",
+    "TestNG.AddRemoveElementsTest.executor": "Run",
+    "TestNG.CheckboxesTest.checkboxesElementsTest.executor": "Run",
+    "TestNG.CheckboxesTest.executor": "Run",
+    "TestNG.DragAndDropTest.dragAndDropTest.executor": "Run",
+    "TestNG.DragAndDropTest.executor": "Run",
+    "TestNG.DropdownTest.dropdownOption2Test.executor": "Run",
+    "TestNG.DropdownTest.executor": "Run",
+    "TestNG.FormAuthenticationTest.executor": "Run",
+    "TestNG.FormAuthenticationTest.formAuthenticationTest.executor": "Run",
+    "TestNG.HorizontalSliderTest.executor": "Run",
+    "TestNG.HorizontalSliderTest.horizontalSliderTest.executor": "Run",
     "TestNG.SeleniumTestngTest.executor": "Run",
     "TestNG.SeleniumTestngTest.myTest.executor": "Run",
-    "git-widget-placeholder": "master",
+    "TestNG.Slider.executor": "Run",
+    "TestNG.Slider.horizontalSliderMoveTest.executor": "Run",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Git_Projects/QA_Auto_Homework/2-testng-selenium-css-xpath-locators-TanjaGa",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.SeleniumTestngTest.myTest">
-    <configuration name="SeleniumTestngTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Git_Projects\QA_Auto_Homework\2-testng-selenium-css-xpath-locators-TanjaGa" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.ABPageTest">
+    <configuration name="ABPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SELENIUM_TESTNG_HOMEWORK" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
+      <option name="MAIN_CLASS_NAME" value="ABPageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -67,11 +91,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTestngTest.myTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckboxesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SELENIUM_TESTNG_HOMEWORK" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
-      <option name="METHOD_NAME" value="myTest" />
+      <option name="MAIN_CLASS_NAME" value="CheckboxesTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HorizontalSliderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SELENIUM_TESTNG_HOMEWORK" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HorizontalSliderTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Slider" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SELENIUM_TESTNG_HOMEWORK" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Slider" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Slider.horizontalSliderMoveTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SELENIUM_TESTNG_HOMEWORK" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Slider" />
+      <option name="METHOD_NAME" value="horizontalSliderMoveTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -81,8 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SeleniumTestngTest.myTest" />
-        <item itemvalue="TestNG.SeleniumTestngTest" />
+        <item itemvalue="TestNG.ABPageTest" />
+        <item itemvalue="TestNG.CheckboxesTest" />
+        <item itemvalue="TestNG.Slider" />
+        <item itemvalue="TestNG.Slider.horizontalSliderMoveTest" />
+        <item itemvalue="TestNG.HorizontalSliderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -99,5 +159,36 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/AddRemoveElementsTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/CheckboxesTest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/DropdownTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/HorizontalSliderTest.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ABPageTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
