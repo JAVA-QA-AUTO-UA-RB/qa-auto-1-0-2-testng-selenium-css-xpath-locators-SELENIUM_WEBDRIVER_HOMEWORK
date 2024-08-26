@@ -3,6 +3,12 @@
     <test name="[TheInternetApp] Functional Smoke">
         <classes>
             <class name="SeleniumTestngTest"/>
+            <class name="AddRemoveElementsTest"/>
+            <class name="CheckboxesTest"/>
+            <class name="DropdownTest"/>
+            <class name="FormAuthenticationTest"/>
+            <class name="DragAndDropTest"/>
+            <class name="HorizontalSliderTest"/>
         </classes>
     </test>
 </suite>
