@@ -8,9 +8,6 @@ public class BasicSetupTest {
 
     @BeforeSuite
     public void webdriverCommonSetup() {
-        // не змінюйте цей метод
-        // в даному випадку він використовується, щоб автоматично підтягнути і встановити
-        // останню стабільну версію chromedriver (щоб вам не потрібно це робити вручну)
         WebDriverManager.chromedriver().setup();
     }
 
@@ -19,11 +16,10 @@ public class BasicSetupTest {
         browser = new ChromeDriver();
     }
 
-    // В цих методах відбувається ініціалізація браузера перед виконанням тестових методів
-    // А також його закриття після виконання усіх тестів в класі
+
     @AfterClass
     public void tearDown() {
         browser.quit();
     }
-
 }
+
